@@ -1,1 +1,5 @@
 # WeeklyRed.github.io
+Kevin Gong
+kjgong28@gmail.com 
+Virginia Tech student studying Computer Engineering
+https://github.com/WeeklyRed/WeeklyRed.github.io 
