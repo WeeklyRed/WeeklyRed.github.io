@@ -7,8 +7,8 @@ project(a3genrev)
 # Include the directory headers are located
 include_directories(${CMAKE_SOURCE_DIR}/include)
 # Add the main executable
-add_executable(main_1 src/main.cpp include/reverse.ipp)
-add_executable(test_1 tests/test.cpp include/reverse.ipp)
+add_executable(main_1 src/main.cpp include/reverse.hpp)
+add_executable(test_1 tests/test.cpp include/reverse.hpp)
 
 target_include_directories(test_1 PRIVATE ${PROJECT_SOURCE_DIR}/include)
 
