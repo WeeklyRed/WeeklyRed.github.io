@@ -7,8 +7,8 @@ project(a6vector)
 # Include the directory headers are located
 include_directories(${CMAKE_SOURCE_DIR}/include)
 # Add the main executable
-add_executable(main_1 src/main.cpp include/vector.hpp)
-add_executable(test_1 tests/test.cpp include/vector.hpp)
+add_executable(main_1 src/main.cpp include/array/vector.hpp)
+add_executable(test_1 tests/test.cpp include/array/vector.hpp)
 
 target_include_directories(test_1 PRIVATE ${PROJECT_SOURCE_DIR}/include)
 
