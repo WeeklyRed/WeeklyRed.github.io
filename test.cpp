@@ -6,7 +6,7 @@
 #include <iostream>
 
 TEST_CASE("Default constructor creates empty vector") {
-    dsa::Vector<int> v;
+    dsac::array::Vector<int> v;
     bool ok{true};
     REQUIRE(ok);
 }
@@ -15,8 +15,8 @@ TEST_CASE("Default constructor creates empty vector") {
 
 TEST_CASE("Testing functions") 
 {
-    dsa::Vector<int> v;
-    dsa::Vector<int> empt;
+    dsac::array::Vector<int> v;
+    dsac::array::Vector<int> empt;
     for(int i = 0; i <= 5; i++){
         v.push_back(i);
     }

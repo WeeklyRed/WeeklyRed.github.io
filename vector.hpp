@@ -6,7 +6,7 @@
 #include <stdexcept>
 using std::max;
 
-namespace dsa{
+namespace dsac::array{
 
 template <typename T>
 class Vector {
